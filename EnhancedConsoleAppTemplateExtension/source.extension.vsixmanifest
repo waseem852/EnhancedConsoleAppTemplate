@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="EnhancedConsoleAppTemplateExtension.875a70f2-bd7e-420c-9519-90dedc26dd9d" Version="1.0" Language="en-US" Publisher="Waseem" />
+        <DisplayName>Dotnet 5 Enhanced Console App Template</DisplayName>
+        <Description xml:space="preserve">Dotnet 5 Enhanced Console App Template with DI and Serilog.</Description>
+        <Icon>Resources\icon.png</Icon>
+        <PreviewImage>Resources\icon.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Enhanced Console App.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
