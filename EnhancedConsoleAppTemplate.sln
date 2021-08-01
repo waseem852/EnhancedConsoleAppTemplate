@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{5381B070-E087-4F7B-A616-4DA0215FBA10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIXExtension", "VSIXExtension\VSIXExtension.csproj", "{86B0B951-207F-4913-9287-28E5434EDB5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedConsoleAppVSIX", "EnhancedConsoleAppVSIX\EnhancedConsoleAppVSIX.csproj", "{3B2606D8-4DCF-4194-BD0C-A917EA092C81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{5381B070-E087-4F7B-A616-4DA0215FBA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5381B070-E087-4F7B-A616-4DA0215FBA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5381B070-E087-4F7B-A616-4DA0215FBA10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86B0B951-207F-4913-9287-28E5434EDB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86B0B951-207F-4913-9287-28E5434EDB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86B0B951-207F-4913-9287-28E5434EDB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86B0B951-207F-4913-9287-28E5434EDB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2606D8-4DCF-4194-BD0C-A917EA092C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2606D8-4DCF-4194-BD0C-A917EA092C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2606D8-4DCF-4194-BD0C-A917EA092C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2606D8-4DCF-4194-BD0C-A917EA092C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

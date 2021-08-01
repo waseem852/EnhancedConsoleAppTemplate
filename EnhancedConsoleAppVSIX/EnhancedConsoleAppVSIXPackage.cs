@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace VSIXExtension
+namespace EnhancedConsoleAppVSIX
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -24,13 +24,13 @@ namespace VSIXExtension
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(VSIXExtensionPackage.PackageGuidString)]
-    public sealed class VSIXExtensionPackage : AsyncPackage
+    [Guid(EnhancedConsoleAppVSIXPackage.PackageGuidString)]
+    public sealed class EnhancedConsoleAppVSIXPackage : AsyncPackage
     {
         /// <summary>
-        /// VSIXExtensionPackage GUID string.
+        /// EnhancedConsoleAppVSIXPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "f23a862e-af33-4657-9d82-618d736564d2";
+        public const string PackageGuidString = "94652a61-fe78-4938-a7d7-bdf718c89c74";
 
         #region Package Members
 

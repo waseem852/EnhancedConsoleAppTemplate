@@ -10,11 +10,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{86B0B951-207F-4913-9287-28E5434EDB5E}</ProjectGuid>
+    <ProjectGuid>{3B2606D8-4DCF-4194-BD0C-A917EA092C81}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VSIXExtension</RootNamespace>
-    <AssemblyName>VSIXExtension</AssemblyName>
+    <RootNamespace>EnhancedConsoleAppVSIX</RootNamespace>
+    <AssemblyName>EnhancedConsoleAppVSIX</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VSIXExtensionPackage.cs" />
+    <Compile Include="EnhancedConsoleAppVSIXPackage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ProjectTemplates\Enhanced Console App.zip">
@@ -61,11 +61,14 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" ExcludeAssets="runtime" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.10.31321.278" ExcludeAssets="runtime">
+      <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.10.1056" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Content Include="console.png">
+    <Content Include="Resources\icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
